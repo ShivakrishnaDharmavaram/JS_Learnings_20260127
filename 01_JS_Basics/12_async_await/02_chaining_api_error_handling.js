@@ -16,3 +16,6 @@ async function fetchPostAndAuthor(postId) {
     console.error('Error:', error.message);
   }
 }
+
+fetchPostAndAuthor(10);
+fetchPostAndAuthor(1000); // Testing with an invalid post ID to trigger error handling
